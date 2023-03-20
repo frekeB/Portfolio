@@ -179,7 +179,7 @@ import {
       name: " Ukpono Obott",
       designation: "Cloud Engineer",
       company: "Perizer",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+      image: "https://randomuser.me/api/portraits/men/59.jpg",
     },
     {
       testimonial:
@@ -187,7 +187,7 @@ import {
       name: "Oluwafemi Tom",
       designation: ".Net Developer",
       company: "Decagon",
-      image: "https://ibb.co/pwPb46h",
+      image: "https://randomuser.me/api/portraits/men/16.jpg",
     },
     {
       testimonial:
@@ -195,7 +195,7 @@ import {
       name: "Faith Alugue",
       designation: "Software Engineer",
       company: "Pinkotab Technologies",
-      image: 'https://ibb.co/wzvzZZQ',
+      image: 'https://randomuser.me/api/portraits/women/92.jpg',
     },
   ];
   

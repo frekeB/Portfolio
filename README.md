@@ -8,6 +8,7 @@
 
 Technologies used include:
 
-React Js
-Three Js
+. React Js
+. Three Js
+. React-three/fiber
 

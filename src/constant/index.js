@@ -50,7 +50,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Front Developer",
       icon: mobile,
     },
     {
@@ -187,7 +187,7 @@ import {
       name: "Oluwafemi Tom",
       designation: ".Net Developer",
       company: "Decagon",
-      image: "./src/assets/femi.jpeg",
+      image: "https://ibb.co/pwPb46h",
     },
     {
       testimonial:
@@ -195,7 +195,7 @@ import {
       name: "Faith Alugue",
       designation: "Software Engineer",
       company: "Pinkotab Technologies",
-      image: './assets/faithy.jpeg',
+      image: 'https://ibb.co/wzvzZZQ',
     },
   ];
   

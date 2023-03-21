@@ -18,8 +18,7 @@ const Contact = () => {
   const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
-    const { target } = e;
-    const { name, value } = target;
+    const { name, value } = e.target;
 
     setForm({
       ...form,
@@ -31,18 +30,22 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
+    // template_rcvn2f8
+    // service_zf61xzl
+    // RdwJGBoCAqEEwKik0
+
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        'service_zf61xzl',
+          'template_rcvn2f8',
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Ndifreke Etukudo",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "ndyetuk101@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        'RdwJGBoCAqEEwKik0'
       )
       .then(
         () => {

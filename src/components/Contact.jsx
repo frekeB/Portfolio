@@ -30,9 +30,9 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
-    // template_rcvn2f8
-    // service_zf61xzl
-    // RdwJGBoCAqEEwKik0
+    // 
+    // 
+    // 
 
     emailjs
       .send(
